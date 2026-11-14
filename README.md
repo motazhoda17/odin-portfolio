@@ -1,6 +1,6 @@
 # Motaz Hoda – Developer Portfolio
 
-My personal portfolio website, built for the **Building Your Personal Website** project in The Odin Project's [Getting Hired](https://www.theodinproject.com/paths/full-stack-javascript/courses/getting-hired) course. It's the job-hunting site I send to recruiters: who I am, my best projects, my skills and how to reach me.
+My personal portfolio website, built for the **Building Your Personal Website** project in The Odin Project's [Getting Hired](https://www.theodinproject.com/lessons/node-path-getting-hired-building-your-personal-website) course. It's the job-hunting site I send to recruiters: who I am, my best projects, my skills and how to reach me.
 
 ![Screenshot of the portfolio](docs/screenshot.png)
 
