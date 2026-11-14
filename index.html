@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Motaz Hoda – Full-Stack JavaScript Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Motaz Hoda, a self-taught full-stack JavaScript developer in Augusta, Georgia."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='68' font-size='52' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>MH</text></svg>"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a href="#top" class="brand">Motaz Hoda</a>
+        <!-- The button only shows on small screens (see styles.css). -->
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Menu</span>
+          <span class="bars" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ========== Hero ========== -->
+      <section class="hero" id="top">
+        <div class="wrap">
+          <p class="eyebrow">Full-stack JavaScript developer · Augusta, Georgia</p>
+          <h1>Hi, I'm Motaz.<br />I build web apps from the database to the button.</h1>
+          <p class="lead">
+            I taught myself full-stack JavaScript through The Odin Project, building everything from a
+            test-driven Battleship game to a social network with authentication, follow requests and a
+            PostgreSQL database.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">See my projects</a>
+            <a class="btn btn-ghost" href="https://github.com/motazhoda17" target="_blank" rel="noreferrer">GitHub</a>
+            <!-- [PLACEHOLDER: link to your hosted resume PDF] -->
+            <a class="btn btn-ghost" href="[PLACEHOLDER: resume PDF URL]">Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== About ========== -->
+      <section class="section" id="about">
+        <div class="wrap about">
+          <!-- [PLACEHOLDER: optional photo of yourself – save it as images/motaz.jpg and swap this div for an <img>] -->
+          <div class="about-photo" aria-hidden="true">MH</div>
+          <div>
+            <h2>About me</h2>
+            <p>
+              I came to software from the customer-facing side of business. I've worked in luxury sales,
+              automotive and hospitality, most recently as a technology specialist at Jim Hudson Cadillac &amp;
+              Lexus. Today I'm an IT cable technician at a Meta data center, working on the physical
+              infrastructure that keeps large-scale services running.
+            </p>
+            <p>
+              In my own time I've been working through The Odin Project's Full Stack JavaScript path:
+              HTML, CSS, JavaScript, React, Node.js, Express, PostgreSQL and Prisma. I like projects where I
+              have to plan the data model first, then build a clean API and an interface people actually
+              enjoy using.
+            </p>
+            <p>
+              Years of working directly with customers taught me to listen carefully, explain technical
+              things simply and keep calm under pressure. I speak four languages
+              (<span class="placeholder">[PLACEHOLDER: list your four languages]</span>).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Projects ========== -->
+      <section class="section section-alt" id="projects">
+        <div class="wrap">
+          <h2>Projects</h2>
+          <p class="section-lead">
+            A selection of my favorite projects from The Odin Project. Each one links to its code on GitHub,
+            where the README explains how it works and how to run it.
+          </p>
+
+          <!--
+            Each project card has the same structure. To add a project, copy one <article> and change:
+            the image, title, description, tags and both links.
+            [PLACEHOLDER: replace every "live demo URL" href below with the real deployed link]
+          -->
+          <div class="projects">
+            <article class="project featured">
+              <img src="images/odin-book.png" alt="Odin-Book home feed with posts, likes and comments" loading="lazy" />
+              <div class="project-body">
+                <h3>Odin-Book</h3>
+                <p>
+                  A Facebook-style social network. Users send follow requests, write posts, like and comment,
+                  and get a feed of posts from the people they follow. Includes a one-click guest login and
+                  Gravatar profile pictures.
+                </p>
+                <ul class="tags">
+                  <li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Prisma</li><li>Passport</li><li>EJS</li>
+                </ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-book" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project featured">
+              <img src="images/messaging-app.png" alt="Chatter messaging app showing a conversation" loading="lazy" />
+              <div class="project-body">
+                <h3>Messaging App</h3>
+                <p>
+                  A chat app with direct messages, group chats, online status and editable profiles. A React
+                  front end talks to a REST API secured with JSON Web Tokens.
+                </p>
+                <ul class="tags">
+                  <li>React</li><li>Vite</li><li>Express</li><li>PostgreSQL</li><li>Prisma</li><li>JWT</li>
+                </ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-messaging-app" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/blog-api.jpg" alt="Blog API project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Blog API</h3>
+                <p>
+                  One REST API with two separate React front ends: a public site for reading and commenting,
+                  and a dashboard where authors write, publish and moderate posts.
+                </p>
+                <ul class="tags"><li>Express</li><li>Prisma</li><li>JWT</li><li>React</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-blog-api" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/wheres-waldo.jpg" alt="Where's Waldo project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Where's Waldo</h3>
+                <p>
+                  A photo tagging game: find the hidden characters as fast as you can. The server checks each
+                  guess, keeps the time so scores can't be faked, and stores a high-score table.
+                </p>
+                <ul class="tags"><li>React</li><li>Express</li><li>PostgreSQL</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-wheres-waldo" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/members-only.jpg" alt="Members Only project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Members Only</h3>
+                <p>
+                  An exclusive clubhouse where anyone can read anonymous messages, but only members can see
+                  who wrote them. Includes sign-up validation, sessions and an admin role.
+                </p>
+                <ul class="tags"><li>Express</li><li>Passport</li><li>PostgreSQL</li><li>EJS</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-members-only" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/shopping-cart.jpg" alt="Shopping Cart project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Shopping Cart</h3>
+                <p>
+                  A practice online store with home, shop and cart pages. Products load from the FakeStore
+                  API and the cart count updates live in the nav bar.
+                </p>
+                <ul class="tags"><li>React</li><li>React Router</li><li>REST API</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-shopping-cart" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/battleship.jpg" alt="Battleship project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Battleship</h3>
+                <p>
+                  The classic game against the computer, built test-first. The game logic is covered by Jest
+                  tests and the computer hunts around its hits until a ship sinks.
+                </p>
+                <ul class="tags"><li>JavaScript</li><li>Jest</li><li>TDD</li><li>Webpack</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-battleship" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/weather-app.jpg" alt="Weather App project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Weather App</h3>
+                <p>
+                  Search any city to see current conditions and a 7-day forecast from the Visual Crossing API,
+                  with a °F/°C toggle, loading state and friendly error messages.
+                </p>
+                <ul class="tags"><li>JavaScript</li><li>Async/await</li><li>Fetch API</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-weather-app" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="images/todo-list.jpg" alt="Todo List project preview" loading="lazy" />
+              <div class="project-body">
+                <h3>Todo List</h3>
+                <p>
+                  A todo app with projects, due dates and priorities. Organized into ES modules and classes,
+                  bundled with Webpack and saved to localStorage.
+                </p>
+                <ul class="tags"><li>JavaScript</li><li>Webpack</li><li>localStorage</li></ul>
+                <div class="project-links">
+                  <a href="[PLACEHOLDER: live demo URL]">Live demo</a>
+                  <a href="https://github.com/motazhoda17/odin-todo-list" target="_blank" rel="noreferrer">Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Skills ========== -->
+      <section class="section" id="skills">
+        <div class="wrap">
+          <h2>Skills</h2>
+          <div class="skills">
+            <div class="skill-group">
+              <h3>Front end</h3>
+              <ul><li>JavaScript (ES6+)</li><li>HTML &amp; CSS</li><li>React</li><li>React Router</li><li>Vite &amp; Webpack</li><li>Responsive design</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Back end</h3>
+              <ul><li>Node.js</li><li>Express</li><li>REST APIs</li><li>PostgreSQL</li><li>Prisma ORM</li><li>Auth: Passport, sessions, JWT</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Tools &amp; practices</h3>
+              <ul><li>Git &amp; GitHub</li><li>Jest &amp; test-driven development</li><li>npm</li><li>Chrome DevTools &amp; debugging</li><li>Planning data models</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Beyond code</h3>
+              <ul><li>Customer communication</li><li>Sales &amp; hospitality background</li><li>Data center infrastructure</li><li>Four languages</li></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Contact ========== -->
+      <section class="section section-alt" id="contact">
+        <div class="wrap contact">
+          <h2>Let's talk</h2>
+          <p class="section-lead">
+            I'm looking for my first role as a junior developer. If you have a question or an opportunity,
+            I'd love to hear from you.
+          </p>
+          <ul class="contact-links">
+            <!-- [PLACEHOLDER: your email address, in both the href and the text] -->
+            <li><a class="btn" href="mailto:[PLACEHOLDER: email]">Email me</a></li>
+            <!-- [PLACEHOLDER: your LinkedIn profile URL] -->
+            <li><a class="btn btn-ghost" href="[PLACEHOLDER: LinkedIn URL]" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a class="btn btn-ghost" href="https://github.com/motazhoda17" target="_blank" rel="noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© <span id="year">2026</span> Motaz Hoda · Built with plain HTML, CSS and JavaScript.</p>
+      </div>
+    </footer>
+  </body>
+</html>
